@@ -15,8 +15,10 @@
       - py/template-injection
       - py/xslt-injection
       - py/ip-address-spoofing
-      - py/xpath-injection
       - py/nosql-injection
+      # XML / XPath
+      - py/xml-entity-injection
+      - py/xpath-injection
       # LDAP
       - py/ldap-injection
       - py/improper-ldap-auth
