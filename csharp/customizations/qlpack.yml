@@ -1,0 +1,6 @@
+name: advanced-security/codeql-github-csharp
+version: 0.1.0
+dependencies:
+  codeql/csharp-all: "*"
+library: true
+extractor: csharp

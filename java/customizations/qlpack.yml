@@ -1,0 +1,6 @@
+name: advanced-security/codeql-github-java
+version: 0.1.0
+dependencies:
+  codeql/java-all: "*"
+library: true
+extractor: java
