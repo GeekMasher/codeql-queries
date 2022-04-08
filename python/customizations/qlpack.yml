@@ -1,4 +1,4 @@
-name: advanced-security/codeql-github-python
+name: advanced_security/codeql_github_python
 version: 0.1.0
 dependencies:
   codeql/python-all: "*"
