@@ -20,7 +20,7 @@ jobs:
         id: codeql-bundle
         uses: ./github/actions/codeql-bundle-action
         with:
-          packs: "advanced-security/codeql-github-python"
+          packs: "advanced_security/codeql_github_python"
 
       - name: Bundle release
         env:
