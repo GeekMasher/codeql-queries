@@ -20,8 +20,10 @@ jobs:
         id: codeql-bundle
         uses: ./github/actions/codeql-bundle-action
         with:
-          # CSharp is disabled - advanced-security/codeql-github-csharp
-          packs: "advanced-security/codeql-github-go,advanced-security/codeql-github-java,advanced-security/codeql-github-javascript,advanced-security/codeql-github-python"
+          # Disabled:
+          #   advanced-security/codeql-github-csharp
+          #   advanced-security/codeql-github-go
+          packs: "advanced-security/codeql-github-java,advanced-security/codeql-github-javascript,advanced-security/codeql-github-python"
 
       - name: Bundle release
         env:
