@@ -1,0 +1,6 @@
+name: advanced-security/codeql-github-go
+version: 0.1.0
+dependencies:
+  codeql/go-all: "*"
+library: true
+extractor: go
