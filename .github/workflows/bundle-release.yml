@@ -22,8 +22,7 @@ jobs:
         with:
           # Disabled:
           #   advanced-security/codeql-github-csharp
-          #   advanced-security/codeql-github-go
-          packs: "advanced-security/codeql-github-java,advanced-security/codeql-github-javascript,advanced-security/codeql-github-python"
+          packs: "advanced-security/codeql-github-java,advanced-security/codeql-github-javascript,advanced-security/codeql-github-python,advanced-security/codeql-github-go"
 
       - name: Bundle release
         env:
