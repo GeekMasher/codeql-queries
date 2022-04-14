@@ -1,2 +1,2 @@
 provide:
-  - "*/customizations/qlpack.yml"
+  - "customizations/*/qlpack.yml"

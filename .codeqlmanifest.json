@@ -1,0 +1,15 @@
+{
+    "provide": [
+        "codeql/*/ql/src/qlpack.yml",
+        "codeql/*/ql/lib/qlpack.yml",
+        "*/qlpack.yml",
+        "customizations/*/qlpack.yml"
+    ],
+    "versionPolicies": {
+      "default": {
+        "requireChangeNotes": true,
+        "committedPrereleaseSuffix": "dev",
+        "committedVersion": "nextPatchRelease"
+      }
+    }
+}
