@@ -1,6 +1,5 @@
 
 import python
-import advanced_security.codeql_github_python.RequestsSources
 
 module Customize {
   private import semmle.python.Concepts
